@@ -1,8 +1,8 @@
 
 export const Flower = (flowerObj) => {
     return `
-        <section class="flowerCard">
-            <h4>Flower Name: ${flowerObj.commonName}</h4>
+        <section class="flower__Card">
+            <h3>Flower Name: ${flowerObj.commonName}</h3>
             <p>Color: ${flowerObj.color}</p>
         </section>
     `

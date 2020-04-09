@@ -1,7 +1,7 @@
 import { Flower } from "./Flower.js";
 import { useFlowers } from "./FlowerDataProvider.js";
 
-const contentTarget = document.querySelector(".container")
+const contentTarget = document.querySelector(".flowersContainer")
 
 
 export const FlowerList = () => {
