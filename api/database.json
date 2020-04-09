@@ -1,0 +1,29 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "commonName": "Lamb's Ears",
+            "color": "green"
+        },
+        {
+            "id": 2,
+            "commonName": "Stargazer Lily",
+            "color": "pink"
+        },
+        {
+            "id": 3,
+            "commonName": "Begonia",
+            "color": "yellow"
+        },
+        {
+            "id": 4,
+            "commonName": "Passion Flower",
+            "color": "green"
+        },
+        {
+            "id": 5,
+            "commonName": "Dahlia",
+            "color": "red"
+        }
+    ]
+}

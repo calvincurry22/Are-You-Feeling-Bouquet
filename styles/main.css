@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flowerCard {
+    border: 1px solid lightgray;
+    margin: 20px 0px 0px 30px;
+}
