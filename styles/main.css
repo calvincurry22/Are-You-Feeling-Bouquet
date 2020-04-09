@@ -1,9 +1,19 @@
-.container {
+.flowersContainer {
     display: flex;
     flex-wrap: wrap;
 }
 
-.flowerCard {
+.flower__Card {
+    border: 1px solid lightgray;
+    margin: 20px 0px 0px 30px;
+}
+
+.retailersContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.retailer__Card {
     border: 1px solid lightgray;
     margin: 20px 0px 0px 30px;
 }

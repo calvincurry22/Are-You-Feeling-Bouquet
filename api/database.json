@@ -25,5 +25,42 @@
             "commonName": "Dahlia",
             "color": "red"
         }
+    ],
+    "retailers": [
+        {
+            "id":1,
+            "name": "Power Flowers",
+            "city": "Pallet Town",
+            "state": "Tennessee",
+            "address": "123 Joy Way"
+        },
+        {
+            "id":2,
+            "name": "Dream Bouquet Flower Shop",
+            "city": "Bloomfield",
+            "state": "Indiana",
+            "address": "237 Hoosier Lane"
+        },
+        {
+            "id":3,
+            "name": "Morty's Garden",
+            "city": "Ricktown",
+            "state": "Wyoming",
+            "address": "783 ABC Street"
+        },
+        {
+            "id":4,
+            "name": "Jackson Hills Florist",
+            "city": "Mount Juliet",
+            "state": "Tennessee",
+            "address": "469 Plowson Rd"
+        },
+        {
+            "id":5,
+            "name": "Eve's Flowers",
+            "city": "Philadelphia",
+            "state": "Pennsylvania",
+            "address": "5519 Green Street"
+        }
     ]
 }
