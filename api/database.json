@@ -32,35 +32,63 @@
             "name": "Power Flowers",
             "city": "Pallet Town",
             "state": "Tennessee",
-            "address": "123 Joy Way"
+            "address": "123 Joy Way",
+            "distributorId": 3
         },
         {
             "id":2,
             "name": "Dream Bouquet Flower Shop",
             "city": "Bloomfield",
             "state": "Indiana",
-            "address": "237 Hoosier Lane"
+            "address": "237 Hoosier Lane",
+            "distributorId": 1
         },
         {
             "id":3,
             "name": "Morty's Garden",
             "city": "Ricktown",
             "state": "Wyoming",
-            "address": "783 ABC Street"
+            "address": "783 ABC Street",
+            "distributorId": 2
         },
         {
             "id":4,
             "name": "Jackson Hills Florist",
             "city": "Mount Juliet",
             "state": "Tennessee",
-            "address": "469 Plowson Rd"
+            "address": "469 Plowson Rd",
+            "distributorId": 3
         },
         {
             "id":5,
             "name": "Eve's Flowers",
             "city": "Philadelphia",
             "state": "Pennsylvania",
-            "address": "5519 Green Street"
+            "address": "5519 Green Street",
+            "distributorId": 1
+        }
+    ],
+    "distributors": [
+        {
+            "id":1,
+            "name": "Swift Distribution",
+            "city": "New York",
+            "state": "New York",
+            "address": "4435 Spring Street"
+        },
+        {
+            "id":2,
+            "name": "Birdbox Distributors",
+            "city": "Bozeman",
+            "state": "Montana",
+            "address": "295 Birch Tree Rd"
+        },
+        {
+            "id":3,
+            "name": "Cowboy Distribution Company",
+            "city": "Dallas",
+            "state": "Texas",
+            "address": "376 Bullock Blvd"
         }
     ]
 }
