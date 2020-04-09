@@ -2,7 +2,7 @@ let distributor = []
 
 
 export const getDistributors = () => {
-    return fetch("http://localhost:3000/distributors")
+    return fetch("http://localhost:8090/distributors")
     .then(res => res.json())
     .then(parsedDistributor => distributor = parsedDistributor)
 }
