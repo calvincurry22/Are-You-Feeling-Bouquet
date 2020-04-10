@@ -9,14 +9,16 @@ export const Retailer = (retailerObj, distributorObj, nurseryArray, flowerArray)
             <ul>
                 <lh>Source Nurseries</lh>
                 ${nurseryArray.map(singleNursery => {
+                    console.log(nurseryArray)
                     return `<li>${singleNursery.name}</li>`
-                }).join(" ")}
+                }).join("")}
             </ul>
             <ul>
                 <lh>Available Flowers</lh>
                 ${flowerArray.map(singleFlower => {
+                    console.log(flowerArray)
                     return `<li>${singleFlower.commonName}</li>`
-                }).join(" ")}
+                }).join("")}
             </ul>
         </section>
             `

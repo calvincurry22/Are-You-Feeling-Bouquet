@@ -25,9 +25,14 @@ export const RetailersList = () => {
         const foundNurseries = filteredDistributorNurseries.map(singleDistNursery => {
             return nurseryCollection.find(singleNursery => singleNursery.id === singleDistNursery.nurseryId)
         })
-        const filteredNurseryFlowers = foundNurseries.map(eachFoundNursery => {
-          return nurseryFlowersArray.find(singleNursFlowerRel => singleNursFlowerRel.nurseryId === eachFoundNursery.id)})
 
+        let filteredNurseryFlowers = foundNurseries.map(eachFoundNursery => {
+            
+          return nurseryFlowersArray.filter(singleNursFlowerRel => singleNursFlowerRel.nurseryId === eachFoundNursery.id)
+        })
+         
+        filteredNurseryFlowers = filteredNurseryFlowers.flat()
+        
         const foundFlowers = filteredNurseryFlowers.map(eachNursFlower => {
             return flowersCollection.find(singleFlower => singleFlower.id === eachNursFlower.flowerId)
         })
