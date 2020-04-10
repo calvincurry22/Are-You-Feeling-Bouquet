@@ -25,9 +25,14 @@ export const RetailersList = () => {
         const foundNurseries = filteredDistributorNurseries.map(singleDistNursery => {
             return nurseryCollection.find(singleNursery => singleNursery.id === singleDistNursery.nurseryId)
         })
-        const filteredNurseryFlowers = foundNurseries.map(eachFoundNursery => {
-          return nurseryFlowersArray.find(singleNursFlowerRel => singleNursFlowerRel.nurseryId === eachFoundNursery.id)})
 
+        let filteredNurseryFlowers = foundNurseries.map(eachFoundNursery => {
+            
+          return nurseryFlowersArray.filter(singleNursFlowerRel => singleNursFlowerRel.nurseryId === eachFoundNursery.id)
+        })
+         
+        filteredNurseryFlowers = filteredNurseryFlowers.flat()
+        
         const foundFlowers = filteredNurseryFlowers.map(eachNursFlower => {
             return flowersCollection.find(singleFlower => singleFlower.id === eachNursFlower.flowerId)
         })
@@ -43,8 +48,3 @@ export const RetailersList = () => {
 
 
 
-// Create your data provider for nurseries. Then refactor your list of retailers so that each one displays the following information.
-
-// Distributor purchased from.
-// Source nurseries that the distributor purchased from.
-// List of flowers it can sell based on the distributor and nursery.
