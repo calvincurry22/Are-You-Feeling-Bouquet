@@ -3,9 +3,9 @@ export const Retailer = (retailerObj, distributorObj, nurseryArray, flowerArray)
     return `
         <section class="retailer__Card">
             <h3>Retailer Name: ${retailerObj.name}</h3>
-            <p>City: ${retailerObj.city}, ${retailerObj.state}</p>
-            <p>Address:${retailerObj.address}</p>
-            <p>Distributor: ${distributorObj.name}</p>
+            <p><b>City:</b> ${retailerObj.city}, ${retailerObj.state}</p>
+            <p><b>Address:</b>${retailerObj.address}</p>
+            <p><b>Distributor:</b> ${distributorObj.name}</p>
             <ul>
                 <lh>Source Nurseries:</lh>
                 ${nurseryArray.map(singleNursery => {
