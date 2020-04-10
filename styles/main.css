@@ -5,7 +5,11 @@
 }
 
 .flower__Card {
+    background-color: snow;
     border: 1px solid lightgray;
+    border-radius: 6px;
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
     
 }
 
@@ -17,6 +21,19 @@
 }
 
 .retailer__Card {
+    background-color: snow;
     border: 1px solid lightgray;
-    
+    border-radius: 6px;
+    margin: 20px 0px 0px 0px;
+    padding: 10px
+}
+
+.retailer__Card p {
+    text-align: center;
+}
+
+.retailer__Card lh {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
 }

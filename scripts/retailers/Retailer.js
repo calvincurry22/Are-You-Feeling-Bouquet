@@ -7,14 +7,14 @@ export const Retailer = (retailerObj, distributorObj, nurseryArray, flowerArray)
             <p>Address:${retailerObj.address}</p>
             <p>Distributor: ${distributorObj.name}</p>
             <ul>
-                <lh>Source Nurseries</lh>
+                <lh>Source Nurseries:</lh>
                 ${nurseryArray.map(singleNursery => {
                     console.log(nurseryArray)
                     return `<li>${singleNursery.name}</li>`
                 }).join("")}
             </ul>
             <ul>
-                <lh>Available Flowers</lh>
+                <lh>Available Flowers:</lh>
                 ${flowerArray.map(singleFlower => {
                     console.log(flowerArray)
                     return `<li>${singleFlower.commonName}</li>`

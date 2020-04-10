@@ -48,8 +48,3 @@ export const RetailersList = () => {
 
 
 
-// Create your data provider for nurseries. Then refactor your list of retailers so that each one displays the following information.
-
-// Distributor purchased from.
-// Source nurseries that the distributor purchased from.
-// List of flowers it can sell based on the distributor and nursery.
